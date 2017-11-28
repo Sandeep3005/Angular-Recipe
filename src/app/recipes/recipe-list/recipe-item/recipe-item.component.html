@@ -1,0 +1,15 @@
+<div class='back-color'>
+  <a 
+    class='list-group-item clearfix recipe-info' 
+    [routerLink]="[recipe.id, 'details']"
+    style="cursor: pointer;">
+    <div>
+      <h4>{{recipe.name}}</h4>
+      <h5 style="text-align:'justify'">{{recipe.description}}</h5>
+    </div>
+    <img class='recipe-image' src="{{recipe.imagePath}}" />
+  </a>
+  <hr/>
+</div>
+<!-- (click)="onRecipeSelect()" -->
+

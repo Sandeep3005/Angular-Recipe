@@ -1,0 +1,13 @@
+
+.recipe-info {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.recipe-image {
+  height: 20%;
+  width: 20%;
+}
+
+/*background: lightcoral;*/
