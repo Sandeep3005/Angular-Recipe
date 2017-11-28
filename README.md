@@ -5,16 +5,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Install Package
 Perform `yarn install` to include all required packages
 
-##Run 
+## Run 
 Run with `ng serve`
 
-##Issue
+## Issue
 When I click on recipe in recipe-item - 
 
-###When clicking 1st time
+#### When clicking 1st time
 We can see changes in the url as well recipe-detail show appropriate recipe
 
-###When clicking 2nd time
+#### When clicking 2nd time
 We can see changes in the url but output in recipe details is not changing.
 
 Please take a look
